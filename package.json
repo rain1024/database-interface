@@ -1,0 +1,19 @@
+{
+  "name": "database-interface",
+  "version": "1.0.2",
+  "description": "unify interface for databse adapters",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "reponsitory": {
+    "type": "git",
+    "url": "git://github.com/rain1024/database-interface.git"
+  },
+  "author": "Brother Rain",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "chai": "~1.10.0",
+    "nedb": "~1.0.0"
+  }
+}
